@@ -9,6 +9,15 @@ const p5 = new Produto('Fones de Ouvido Xiaomi Redmi AirDots')
 const p6 = new Produto('Máquina De Café Espresso Coffee Cream ')
 const p7 = new Produto('Parafusadeira/furadeira De Impacto 1⁄2” (13mm) 20v Max')
 const p8 = new Produto('Honorall Full HD 1080 P Webcam USB Mini Câmera')
+const p9 = new Produto('p9')
+const p10 = new Produto('p10')
+const p11 = new Produto('p11')
+const p12 = new Produto('p12')
+const p13 = new Produto('p13')
+const p14 = new Produto('p14')
+const p15 = new Produto('p15')
+const p16 = new Produto('p16')
+const p17 = new Produto('p17')
 
 const carrinho = new Carrinho()
 
@@ -23,3 +32,7 @@ console.log(`${carrinho}`) // toString
 carrinho.adiciona(p5, p6)
 carrinho.adiciona(p7, p8)
 console.log(`${carrinho}`) // toString
+//adicionando mais produtos
+carrinho.adiciona(p9,p10,p11,p12,p13,p14,p15,p16,p17)
+console.log(`${carrinho}`) // toString
+
